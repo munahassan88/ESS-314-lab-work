@@ -13,10 +13,10 @@ evidence of my fact-checking practice.
 ## Entry template
 
 ```yaml
-date: YYYY-MM-DD
-tool: [name + version if known]
+date: 2026-06-27
+tool: [Chatgpt 5.5]
 session_link: ai_logs/lab7_session_NN.md
-topic: [seismic refraction / earthquake location / NMO / gravity / etc.]
+topic: Seismic refraction
 ```
 
 **What the AI said (quote or paraphrase):**
@@ -41,8 +41,16 @@ accepting the formula."]
 ---
 
 ## Entry 1
+what the ai said 
+[ Claim B is incorrect because the intercept time is not simply 2h/V₁; it depends on the critical-angle geometry and the velocity contrast between the two layers.]
+why its wrong 
+[ After checking my Lab 3 notebook, I found that the claim itself was wrong, not the AI's evaluation. The intercept time in a two-layer refraction problem depends on both V₁ and V₂ through the critical-angle relationship. The claim incorrectly treated the intercept time as the same as the vertical two-way travel time through the upper layer.]
+Primary source verification 
+[ In my Lab 3 seismic refraction notebook. The refracted-wave travel-time equation derived in the notebook shows that the intercept time includes a velocity-dependent term involving both V₁ and V₂. Therefore, the intercept time is not equal to 2h/V₁ as stated in Claim B]
+How I would have detected this with prompt strategy alone:
 
-[Fill in after Part 5.]
+I should have asked for the full intercept-time equation and compared it to the equation I derived in Lab 3 before accepting the claim.
+
 
 ## Entry 2
 
